@@ -1,11 +1,7 @@
 name: build/docker
 
 on:
-  workflow_call:
-    inputs:
-      publish:
-        required: true
-        type: boolean
+  workflow_dispatch:
 
 jobs:
   build:
