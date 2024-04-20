@@ -51,4 +51,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: 0.1
+          tags: vibin/go-shares:0.1
